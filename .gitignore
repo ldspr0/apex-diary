@@ -44,3 +44,4 @@ $RECYCLE.BIN/
 .prettierrc
 .prettierignore
 .eslintignore
+.sfdx/tools/apex.db
