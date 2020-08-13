@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_reps_you_want_shouldnt_be_changed</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF (ISNEW(),  false , ISCHANGED(Number_of_reps_you_want__c))</errorConditionFormula>
+    <errorDisplayField>Number_of_reps_you_want__c</errorDisplayField>
+    <errorMessage>You can change this field only when create a target. If you created wrong target. Then delete this and create another.</errorMessage>
+</ValidationRule>
